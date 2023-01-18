@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(210, 180, 237);
+}
+
+.container { 
+    background-color: rgb(107, 192, 164);
+    color: rgb(8, 8, 8);
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+}
