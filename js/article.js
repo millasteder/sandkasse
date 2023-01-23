@@ -23,3 +23,29 @@ Error tenetur ratione blanditiis tempora culpa ea officia. Iure omnis atque dolo
 bodyElement.appendChild(h1Element);
 bodyElement.appendChild(imgElement);
 bodyElement.appendChild(pElement);
+
+// listen
+
+// lage hoved container ul (unordered list)
+const ulElement = document.createElement('ul');
+
+// loop med for
+for(let i = 1; i <= 24; i++) {
+    if(i%2 === 0) {
+    
+    console.log(i);
+    const liElement = document.createElement('li');
+    liElement.textContent = 'Item ' + i;
+    ulElement.appendChild(liElement);
+    }
+};
+
+// loop med do, while
+let i =1;
+do {
+    console.log(i) 
+i =i +1;
+} while (i <=18); // krav for slutte loop prossessen 
+
+console.log(ulElement);
+bodyElement.appendChild(ulElement)
