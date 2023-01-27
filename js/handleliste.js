@@ -5,4 +5,4 @@ h1Element.textContent = 'Min handleliste';
 
 
 const pElement = document.createElement('p');
-pElement.textContent = 'lage din eigen';
+pElement.textContent = 'lage din egen';
