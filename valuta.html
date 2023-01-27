@@ -11,19 +11,29 @@
 </head>
 <body>
     <div class="fade"></div>
+    <header>
     <h1>Valuta kalkulator</h1>
-   
-    <label for="amount">amound</label>
+    </header>
+
+    <main>
+    <label for="amount">AMOUNT</label>
     <input type="text" id="amount">
-    
+    <p>Norsk krone</p>
+
+
     <label for="currency"></label>
     <select id="currency"> 
-        <option selected value="">Choose currency</option>
+    <option selected value="">Choose currency</option>
     <option value="0.093">Euro</option>
-    <option value="0.010">Dollar</option>
+    <option value="0.10">Dollar</option>
+        </select>
+    </main>     
 
-    </select>
+
+    <footer>
     <button id="convert">CONVERSION</button>
     <p id="result"></p>
+</footer>
+
 </body>
 </html>
