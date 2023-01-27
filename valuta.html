@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valutakalkulator</title>
     <script async src="./js/valuta.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
+    <div class="fade"></div>
+    <h1>Valuta kalkulator</h1>
+   
+    <label for="amount">amound</label>
+    <input type="text" id="amount">
     
+    <label for="currency"></label>
+    <select id="currency"> 
+        <option selected value="">Choose currency</option>
+    <option value="0.093">Euro</option>
+    <option value="0.010">Dollar</option>
+
+    </select>
+    <button id="convert">CONVERSION</button>
+    <p id="result"></p>
 </body>
 </html>

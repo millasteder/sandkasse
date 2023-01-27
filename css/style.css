@@ -1,64 +1,28 @@
 body {
-    background-color: rgb(241, 235, 246);
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(214, 235, 237);
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container { 
-    background-color: rgb(107, 192, 164);
-    color: rgb(8, 8, 8);
-    padding: 20px;
+html{
+    font-size: 100%;
 }
 
-header {
-    display: flex;
-    justify-content: center;
+.fade {
+    width:100vw;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-
-}
-
-.p-element {
-    color: rgb(34, 34, 224);
-}
-
-.new.class {
-    color: rgb(221, 21, 21);
-}
-
-.link {
-    background-color: brown;
-    padding: 1.5rem;
-    border-radius: 0.4rem;
-    color: #fff;
-}
-
-
-/* events */
-
-.box {
-    width: 300px;
-    height: 240px;
-    border: 0.4rem solid rgb(21, 20, 20);
-    background-color: beige;
-    
-}
-
-select {
-    padding: 0.8rem;
-    font-size: 2rem;
-}
-
-input [type="text"], button {
+h1 {
+    color: rgb(2, 31, 249);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
     padding: 1rem;
-    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
 }
